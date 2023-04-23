@@ -77,13 +77,6 @@
     margin-bottom: 20px;
     color: #28ace5;
   }
-  .modal {
-	position: absolute;
-	float: left;
-	left: 50%;
-	top: 50%;
-	transform: translate(-50%, -50%);
-  }
   .slideanim {visibility:hidden;}
   .slide {
     animation-name: slide;
@@ -120,7 +113,7 @@
   <div class="container">
     <div class="navbar-header">
 	  <img src={{ url_for('static', filename='/images/orbit_logo.jpg') }} alt="Orbit Logo" width="50" height="50" align="left">
-      <a class="navbar-brand" href="#halamanku">&#160; Orbit Future Academy</a>
+      <a class="navbar-brand" href="/">&#160; Orbit Future Academy</a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
@@ -149,28 +142,6 @@
 <footer class="container-fluid text-center">
   <p>Orbit Future Academy <br> <a href="https://orbitfutureacademy.id/">orbitfutureacademy.id</a></p>
 </footer>
-
-<!-- Modal -->
-  <div class="modal fade" id="modalku" role="dialog">
-    <div class="modal-dialog">
-    
-      <!-- Modal content-->
-      <div class="modal-content">
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal">&times;</button>
-          <h4 class="modal-title">Aplikasi Web Pertamaku</h4>
-        </div>
-        <div class="modal-body">
-          <p>Asyik, Seru !</p>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        </div>
-      </div>
-      
-    </div>
-  </div>
-
 
 <script>
 $(document).ready(function(){
